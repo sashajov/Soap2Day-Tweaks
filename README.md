@@ -3,7 +3,7 @@
 _This script will improve your user experience on the all Soap2Day websites. This is edited [Soap2Day Autoplay](https://github.com/normanlol/soap2day-autoplay) script. This is a private script, but if someone want to use or edit, they have my full permission._
 
 **There are a few features for now.**
-* Autoplay on page load
+* Autoplay on page load [normanlol's script](https://github.com/normanlol/soap2day-autoplay)
 * Auto fullscreen 10 seconds after page load
 * Design tweaks <sup>(My eyes are sensitive to bright colors, so I adjusted the design a bit.)</sup>
 
