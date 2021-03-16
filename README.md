@@ -5,7 +5,7 @@ _This script will improve your user experience on the all Soap2Day websites. Thi
 **There are a few features for now.**
 * Autoplay on page load
 * Auto fullscreen 10 seconds after page load
-* Design tweaks <sup>My eyes are sensitive to bright colors, so I adjusted the design a bit.</sup>
+* Design tweaks <sup>(My eyes are sensitive to bright colors, so I adjusted the design a bit.)</sup>
 
 ## Installation and Requirements
 * [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) or [Tampermonkey for Mozila](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
