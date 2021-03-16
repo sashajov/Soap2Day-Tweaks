@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           Soap2Day Tweaks
-// @version        1.2
+// @version        1.2.1
 // @description    Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks and Soap2Day Tweaks.
 // @author         n0rmancodes + lesa
 // @include        https://soap2day.to/*
@@ -38,7 +38,9 @@
 // @namespace      greasyfork.org
 // ==/UserScript==
 // @require http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+// @require https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js
 /* globals $ */
+// @require      http://p.jwpcdn.com/6/12/jwplayer.js
 
 // Autoplay enabler
 
@@ -66,14 +68,9 @@ window.onload = function(){
 };
 
 function triggerFullScreen(){
-    const ke = new KeyboardEvent('keydown', {
-    bubbles: true, cancelable: true, keyCode: 70
-});
-
-document.body.dispatchEvent(ke);
+    jwplayer().setFullscreen(true);
     clearInterval(interval);
 }
-
 // Design tweaks
 
 $('.col-lg-4 .panel').remove();
