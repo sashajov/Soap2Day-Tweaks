@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           Soap2Day Tweaks
-// @version        1.2.3
+// @version        1.2.4
 // @description    Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks and Soap2Day Tweaks.
 // @author         n0rmancodes + lesa
 // @include        https://soap2day.to/*
@@ -38,13 +38,10 @@
 // @grant          none
 // @license        The Unlicense
 // @source         https://github.com/n0rmancodes/soap2day-autoplay
+// @source         https://github.com/sashajov/Soap2Day-Tweaks
 // @namespace      github.com
 // @namespace      greasyfork.org
 // ==/UserScript==
-// @require http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
-// @require https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js
-/* globals $ */
-// @require      http://p.jwpcdn.com/6/12/jwplayer.js
 
 // Autoplay enabler
 
