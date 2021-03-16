@@ -1,8 +1,12 @@
 // ==UserScript==
-// @name           Soap2Day Autoplay
-// @version        1.1
-// @description    Autoplay soap2play shows and movies when the page loads. Written in Tampermonkey.
-// @author         n0rmancodes
+// @name           Soap2Day Tweaks
+// @version        1.2
+// @description    Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks and Soap2Day Tweaks.
+// @author         n0rmancodes + lesa
+// @include        https://soap2day.to/*
+// @include        https://soap2day.se/*
+// @include        https://soap2day.ac/*
+// @include        https://soap2day.im/*
 // @include        https://soap2day.to/movie_*
 // @include        https://soap2day.to/episode_*
 // @include        https://soap2day.to/sport_*
@@ -33,6 +37,10 @@
 // @namespace      github.com
 // @namespace      greasyfork.org
 // ==/UserScript==
+// @require http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+/* globals $ */
+
+// Autoplay enabler
 
 (function() {
     'use strict';
@@ -48,3 +56,59 @@
             }, 2000)
         }
 })();
+
+// Auto fullscreen after 10 seconds
+
+var interval;
+
+window.onload = function(){
+    interval = window.setInterval(triggerFullScreen, 10000);
+};
+
+function triggerFullScreen(){
+    const ke = new KeyboardEvent('keydown', {
+    bubbles: true, cancelable: true, keyCode: 70
+});
+
+document.body.dispatchEvent(ke);
+    clearInterval(interval);
+}
+
+// Design tweaks
+
+$('.col-lg-4 .panel').remove();
+// $('.col-sm-4 .panel').remove();
+$('.alert-warning').remove();
+
+function addGlobalStyle(css) {
+    var head, style;
+    head = document.getElementsByTagName('head')[0];
+    if (!head) { return; }
+    style = document.createElement('style');
+    style.type = 'text/css';
+    style.innerHTML = css;
+    head.appendChild(style);
+}
+addGlobalStyle('body { background-color:#141414 !important; color: #e5e5e5 !important; overflow-x: hidden !important; }');
+addGlobalStyle('.panel { background-color: #fff0 !important; }');
+addGlobalStyle('.panel-info { border-color: #ffffff00 !important; }');
+addGlobalStyle('.thumbnail { background-color: #fff0 !important; }');
+addGlobalStyle('a { color: #e5e5e5 !important; }');
+addGlobalStyle('.navbar-default { background-color: #101010 !important; border-color: #00000000 !important; width: 102.3% !important; margin-left: -1% !important; margin-top: -1% !important; }');
+addGlobalStyle('.form-control { background-color: #10101000 !important; border: 1px solid #272727 !important; }');
+addGlobalStyle('.form-group img { display:none !important; }');
+addGlobalStyle('.btn-info { background-color:transparent !important; }');
+addGlobalStyle('.loginbar { display:none !important; }');
+addGlobalStyle('.panel-info > .panel-heading { color: #e5e5e5 !important; background-color: transparent !important; border-color: transparent !important; font-size: 22px !important; }');
+addGlobalStyle('h3 img { display:none !important; }');
+addGlobalStyle('.col-xs-12 { padding: 0px !important; width:100% !important; }');
+addGlobalStyle('::-webkit-scrollbar { width: 13px !important ; height: 13px !important;}');
+addGlobalStyle('::-webkit-scrollbar-thumb { background: #101010 !important ; border-radius: 3px !important;}');
+addGlobalStyle('::-webkit-scrollbar-thumb:hover { background: #101010 !important;}');
+addGlobalStyle('::-webkit-scrollbar-track { background: #4f4f4f !important; border-radius: 3px !important; box-shadow: inset 7px 10px 12px #4F4F4F !important;}');
+addGlobalStyle('.alert-info { color: #ca8a8a !important; background-color: transparent !important; border-color: transparent !important; }');
+addGlobalStyle('.alert-info-ex { color: #ca8a8a !important; background-color: transparent !important; border-color: transparent !important; margin-top: -1.9% !important; margin-bottom: -0.1% !important; }');
+addGlobalStyle('img { filter: brightness(30%) !important; }');
+addGlobalStyle('.panel .text-center h5 { display: none !important; }');
+addGlobalStyle('.label.label-info { background-color: #223942 !important; color: #a7a7a7 !important; }');
+addGlobalStyle('.myp1 { background-color: #333333 !important; }');
