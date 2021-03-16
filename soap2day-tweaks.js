@@ -1,12 +1,16 @@
 // ==UserScript==
 // @name           Soap2Day Tweaks
-// @version        1.2.2
+// @version        1.2.3
 // @description    Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks and Soap2Day Tweaks.
 // @author         n0rmancodes + lesa
 // @include        https://soap2day.to/*
 // @include        https://soap2day.se/*
 // @include        https://soap2day.ac/*
 // @include        https://soap2day.im/*
+// @include        https://s2dfree.to/*
+// @include        https://s2dfree.is/*
+// @include        https://s2dfree.in/*
+// @include        https://s2dfree.nl/*
 // @include        https://soap2day.to/movie_*
 // @include        https://soap2day.to/episode_*
 // @include        https://soap2day.to/sport_*
