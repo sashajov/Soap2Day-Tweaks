@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name           Soap2Day Tweaks
-// @version        1.2.1
+// @version        1.2.2
 // @description    Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks, Soap2Day Tweaks and Soap2Day Tweaks.
 // @author         n0rmancodes + lesa
 // @include        https://soap2day.to/*
@@ -90,12 +90,13 @@ addGlobalStyle('body { background-color:#141414 !important; color: #e5e5e5 !impo
 addGlobalStyle('.panel { background-color: #fff0 !important; }');
 addGlobalStyle('.panel-info { border-color: #ffffff00 !important; }');
 addGlobalStyle('.thumbnail { background-color: #fff0 !important; }');
-addGlobalStyle('a { color: #e5e5e5 !important; }');
+addGlobalStyle('a { color: #a5a5a5 !important; }');
+addGlobalStyle('a.label { color: white !important; }');
 addGlobalStyle('.navbar-default { background-color: #101010 !important; border-color: #00000000 !important; width: 102.3% !important; margin-left: -1% !important; margin-top: -1% !important; }');
 addGlobalStyle('.form-control { background-color: #10101000 !important; border: 1px solid #272727 !important; }');
-addGlobalStyle('.form-group img { display:none !important; }');
+addGlobalStyle('.pagination > li > a { background-color: #141414 !important; border: 1px solid #060606 !important; }');
+addGlobalStyle('.pagination > .disabled > span { background-color: #141414 !important; border: 1px solid #060606 !important; }');
 addGlobalStyle('.btn-info { background-color:transparent !important; }');
-addGlobalStyle('.loginbar { display:none !important; }');
 addGlobalStyle('.panel-info > .panel-heading { color: #e5e5e5 !important; background-color: transparent !important; border-color: transparent !important; font-size: 22px !important; }');
 addGlobalStyle('h3 img { display:none !important; }');
 addGlobalStyle('.col-xs-12 { padding: 0px !important; width:100% !important; }');
@@ -106,6 +107,6 @@ addGlobalStyle('::-webkit-scrollbar-track { background: #4f4f4f !important; bord
 addGlobalStyle('.alert-info { color: #ca8a8a !important; background-color: transparent !important; border-color: transparent !important; }');
 addGlobalStyle('.alert-info-ex { color: #ca8a8a !important; background-color: transparent !important; border-color: transparent !important; margin-top: -1.9% !important; margin-bottom: -0.1% !important; }');
 addGlobalStyle('img { filter: brightness(30%) !important; }');
-addGlobalStyle('.panel .text-center h5 { display: none !important; }');
+addGlobalStyle('.panel-body { padding: 0px !important; color: #a5a5a5 !important; }');
 addGlobalStyle('.label.label-info { background-color: #223942 !important; color: #a7a7a7 !important; }');
 addGlobalStyle('.myp1 { background-color: #333333 !important; }');
