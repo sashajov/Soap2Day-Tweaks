@@ -41,6 +41,8 @@
 // @source         https://github.com/sashajov/Soap2Day-Tweaks
 // @namespace      github.com
 // @namespace      greasyfork.org
+/* globals $ */
+/* globals jwplayer */
 // ==/UserScript==
 
 // Autoplay enabler
