@@ -107,7 +107,7 @@ addGlobalStyle('::-webkit-scrollbar-track { background: #4f4f4f !important; bord
 addGlobalStyle('.alert-info { color: #ca8a8a !important; background-color: transparent !important; border-color: transparent !important; }');
 addGlobalStyle('.alert-info-ex { color: #ca8a8a !important; background-color: transparent !important; border-color: transparent !important; margin-top: -1.9% !important; margin-bottom: -0.1% !important; }');
 addGlobalStyle('img { filter: brightness(30%) !important; }');
-addGlobalStyle('.panel-body { padding: 0px !important; color: #a5a5a5 !important; }');
+addGlobalStyle('.panel-body { color: #a5a5a5 !important; }');
 addGlobalStyle('.label.label-info { background-color: #223942 !important; color: #a7a7a7 !important; }');
 addGlobalStyle('.myp1 { background-color: #333333 !important; }');
 addGlobalStyle('.loginbar a { color: white !important; }');
