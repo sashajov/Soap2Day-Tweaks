@@ -1,6 +1,6 @@
 # Soap2Day-Tweaks
 
-_This script will improve your user experience on the all Soap2Day websites. This is edited * [Soap2Day Autoplay](https://greasyfork.org/en/scripts/412307-soap2day-autoplay) script. This is a private script, but if someone want to use or edit, they have my full permission._
+_This script will improve your user experience on the all Soap2Day websites. This is edited [Soap2Day Autoplay](https://greasyfork.org/en/scripts/412307-soap2day-autoplay) script. This is a private script, but if someone want to use or edit, they have my full permission._
 
 **There are a few features for now.**
 Autoplay on page load
